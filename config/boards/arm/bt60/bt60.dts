@@ -49,6 +49,9 @@
 		>;
 	};
 
+	&layout_60_iso {
+		transform = <&default_transform>;
+	};
 
 	kscan0: kscan_0 {
 		compatible = "zmk,kscan-gpio-matrix";
