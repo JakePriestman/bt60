@@ -5,9 +5,6 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-	chosen {
-		zmk,physical-layout = &layout_60_iso;
-	};
 	keymap {
 		compatible = "zmk,keymap";
 
