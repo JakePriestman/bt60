@@ -6,7 +6,7 @@
 
 / {
 	chosen {
-		zmk,physical-layout = &layou_60_iso;
+		zmk,physical-layout = &layout_60_iso;
 	};
 	keymap {
 		compatible = "zmk,keymap";
