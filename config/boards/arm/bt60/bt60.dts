@@ -11,6 +11,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 
 #include "pinctrl.dtsi"
+#include "ckp.dtsi"
+#include <layouts/common/60percent/iso.dtsi>
 
 / {
 	model = "BT60";
@@ -25,6 +27,7 @@
 		zmk,backlight = &backlight;
 		zmk,matrix_transform = &default_transform;
 		zmk,battery = &vbatt;
+		zmk,physical-layout = &layout_60_iso;
 	};
 
 	sensors {
