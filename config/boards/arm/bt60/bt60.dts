@@ -49,10 +49,6 @@
 		>;
 	};
 
-	&layout_60_iso {
-		transform = <&default_transform>;
-	};
-
 	kscan0: kscan_0 {
 		compatible = "zmk,kscan-gpio-matrix";
 		diode-direction = "col2row";
@@ -229,4 +225,8 @@
 		spi-zero-frame = <0x40>;
 		color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
 	};
+};
+
+&layout_60_iso {
+	transform = <&default_transform>;
 };
